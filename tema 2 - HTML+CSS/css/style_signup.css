@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #f8f5f1; /* Light beige background */
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.title {
+    font-size: 30px;
+    color: #a89679; /* Brownish title color */
+}
+
+#contact {
+    margin: 4em auto;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+#contact:hover {
+    background: #000000;
+}
+
+#contact:active {
+    background: #444;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 6px solid #3324be;
+    padding: 1em;
+    width: 300px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    margin: 2em auto;
+}
+
+input,
+textarea {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%; /* Make inputs take the full width of the container */
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+textarea {
+    height: 60px;
+    resize: none;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    width: 150px; /* Adjusted width to make it smaller */
+    margin-top: 25px; /* Adjusted margin-top for better spacing */
+    padding: 8px 15px; /* Adjusted padding for a smaller size */
+    font-size: 18px; /* Slightly reduced font size */
+    border-radius: 5px; /* Reduced border radius for a cleaner look */
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: #444; /* Brownish background color */
+    color: #fff; /* White text color */
+    transition: background 0.3s ease;
+    display: block; /* Ensure it behaves as a block-level element for proper centering */
+}
+
+.submit:hover {
+    background: #a07056; /* Darker brownish background color on hover */
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 15px;
+    background: #f8f5f1; /* Light beige background */
+    text-align: center;
+    border-top: 2px solid #a89679; /* Brownish border at the top */
+}
+
+.link {
+    color: #543c29; /* Brownish link color */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #a89679; /* Darker brownish color on hover */
+}
