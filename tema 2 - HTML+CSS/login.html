@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro report - Log in</title>
+    <link rel="icon" href="/tema 2 - HTML+CSS/assets/img/small_logo.png">
+    <link rel="stylesheet" href="/tema 2 - HTML+CSS/css/style_login.css">
+    <link rel="stylesheet" href="cl-icon/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo" style="text-align: center;">
+            <a href="/tema 2 - HTML+CSS/home.html">
+                <img src="/tema 2 - HTML+CSS/assets/img/logo.png" alt="logo" style="width: 300px; height: 75px; margin: 0 auto;"/>
+            </a>
+        </div>
+        </header>
+        <br> <br>
+        <div class="wrapper">
+            <form action="/tema 2 - HTML+CSS/home.html" class="form" onsubmit="return validateForm()">
+                <h1 class="title">Log in</h1>
+                <div class="inp">
+                    <input type="text" name="username" id="username" class="input" placeholder="username" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="inp">
+                    <input type="password" name="password" id="password" class="input" placeholder="password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <button type="submit" class="submit">Start Reading</button>
+                <p class="footer">Don't have an account?<a href="/tema 2 - HTML+CSS/signup.html" class="link"> Sign up here</a></p>   
+            </form>
+            <div></div>
+            <div class="banner">
+                <h1 class="wel_text">Welcome!</h1><br>
+                <p class="para"></p>
+            </div>
+        </div>
+    </body>
+    </html>

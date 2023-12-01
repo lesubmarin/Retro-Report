@@ -121,3 +121,9 @@ body {
     color: #543c29; /* Brownish link color */
     text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding: 10px;
+    }
+}
